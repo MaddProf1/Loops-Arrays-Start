@@ -26,11 +26,11 @@ The output should look like this:
 Today is Sunday
 It's the weekend, no MTM6302 class today!
 Today is Monday
-Sadly there is no MTM6302 class today!
-Today is Tuesday
 You have MTM6302 class today!
-Today is Wednesday
+Today is Tuesday
 Sadly there is no MTM6302 class today!
+Today is Wednesday
+You have MTM6302 class today!
 Today is Thursday
 Sadly there is no MTM6302 class today!
 Today is Friday
@@ -79,7 +79,7 @@ NOTE: Make sure everything is working correctly BEFORE you convert to the switch
 // lets see if we have MTM6302 today
 if (day === 'Saturday' || day === 'Sunday') {
   console.log("It's the weekend, no MTM6302 class today!")
-} else if (day === 'Tuesday' || day === 'Friday') {
+} else if (day === 'Monday' || day === 'Wednesday') {
   console.log('You have MTM6302 class today!')
 } else {
   console.log('Sadly there is no MTM6302 class today!')
